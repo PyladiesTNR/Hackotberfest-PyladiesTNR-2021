@@ -5,10 +5,118 @@
   <title>PyladiesTNR X Hacktoberefest2020</title>
   <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 </head>
 
 <body>
+  <!-- Navigation bar -->
+  <header>
+    <div class="navbar">
+      <div class="navbar-logo">
+        <a href="{{ url_for('home') }}">
+          <img src="/static/images/pyladies.png">
+        </a>
+      </div>
+      <ul class="navbar-menus">
+        <li>
+          <a href="https://github.com/PyladiesTNR/Hackotberfest-PyladiesTNR-2020/blob/main/README.md">
+            <span>How To Contribute</span>
+          </a>
+        </li>
+
+        <li>
+          <a href="https://github.com/PyladiesTNR">
+            <img src="/static/images/github.png">
+          </a>
+        </li>
+
+        <li>
+          <a href="https://twitter.com/PyladiesTNR">
+            <img src="/static/images/twitterdark.png">
+          </a>
+        </li>
+        
+      </ul>
+    </div>
+  
+  </header>
+
+    <!-- Main Content -->
+    <div class="main">
+      <div class="main-title">
+        <img src="/static/images/html-coding.png">
+        <span>Contribute</span>
+      </div>
+
+      <div class="main-content">
+        <p>This is an easy and a simple project to help first-time contributors participate in open source. Get Familiar with Git and GitHub.</p>
+      </div>
+
+      <div class="main-buttons">
+          <span class="pink">contributors</span>
+          <span class="white">{{ data|length }}</span>
+      </div>
+    </div>
+
+    <!-- Cards Display -->
+    <div class="cards-display">
+      <svg class="vector-one" width="1366" height="61" viewBox="0 0 1368 61" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M1 26.7041C568.269 129.26 900.283 -60.6574 1367 26.7041" stroke="#FF8AE2" stroke-opacity="0.7" stroke-width="5"/>
+      </svg>
+
+      <svg class="vector-two" width="1366" height="100" viewBox="0 0 1368 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M1 33.9008C654.593 232.828 832.932 -100.359 1367 33.9008" stroke="#9C4668" stroke-opacity="0.7" stroke-width="2"/>
+      </svg>
+
+      <div class="card-bg">
+        <div class="card-flex">
+          <div class="card">
+            <h6>Your Name [Template]</h6>
+            <p>Write something about yourself.</p>
+
+            <div class="card-images">
+              <img src="/static/images/twitterlight.png">
+              <img src="/static/images/githublight.png">
+              <img src="/static/images/facebook.png">
+            </div>
+          </div>
+
+          {% for key, value in data.items() %}
+          {% if value.color == "pink" %}
+           <div class="card">
+            <h6>{{ value.name|e }}</h6>
+            <p>{{ value.about|e }}</p>
+
+            <div class="card-images">
+              <a href={{ value.twitter|e }} target="_blank"><img src="/static/images/twitterlight.png"></a>
+              <a href={{ value.github|e }} target="_blank"><img src="/static/images/githublight.png"></a>
+              <a href={{ value.facebook|e }} target="_blank"><img src="/static/images/facebook.png"></a>
+            </div>
+          </div>
+          {% else %}
+            <div class="card blue">
+            <h6 class="text-blue">{{ value.name|e }}</h6>
+            <p>{{ value.about|e }}</p>
+
+            <div class="card-images">
+              <a href={{ value.twitter|e }} target="_blank"><img src="/static/images/twitterblue.png"></a>
+              <a href={{ value.github|e }} target="_blank"><img src="/static/images/githubblue.png"></a>
+              <a href={{ value.facebook|e }} target="_blank"><img src="/static/images/facebookblue.png"></a>
+            </div>
+          </div>
+          {% endif %}
+          {% endfor %}
+
+        </div>
+
+
+        <!-- Footer -->
+        <div class="footer">
+          <p>Made With <img src="/static/images/love.png"> by <span>Pyladies Antananarivo</span></p>
+        </div>
+      </div>
+    </div>
+
 
 </body>
  
