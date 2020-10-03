@@ -16,7 +16,6 @@ contributors = {
     # Pour ajouter une carte dans la page d'accueil, ajoutez les mêmes informations que ci-dessus [N.B. : N'oubliez pas la virgule avant d'ajouter votre configuration].
     }
 
-cl
 @app.route('/', methods=['GET'])
 def home():
     return render_template("home.html", data=contributors)
