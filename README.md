@@ -62,7 +62,17 @@ Then, commit those changes using the `git commit` command:
 git commit -m "Add <your-name> to the Information cards"
 ```
 Do not forget to replace `<your-name>` by your name.
-### 5. Push Changes
+
+### 5. Wanna see your changes locaclly?
+To see the changes that you have done, on your machine, do those commands:
+```
+python3 -m venv .env
+source .env/bin/activate
+pip3 install -r requirements.txt
+python3 app.py
+```
+By default, your changes should be visible on this url : http://127.0.0.1:5000 
+### 6. Push Changes
 Do this command on your branch, to unable pushing over ssh:
 ```
 git remote set-url origin ssh://git@github.com/PyladiesTNR/Hackotberfest-PyladiesTNR-2020.git
@@ -74,12 +84,12 @@ git push -u origin <add-your-branch-name>
 ```
 
 Do not forget to replace `<add-your-branch-name>` with the name of the your newly created branch.
-### 6. Submit Your PR 
+### 7. Submit Your PR 
 If you go to your repository on GitHub, you'll see a `Compare & pull request` button. Click on that button.
 Finally, submit the pull request.
 > **NB:** Your PR Will be reviewed and merged. Once, it will be merged, you will receive a notification by email.
 
-### 7. Next Steps
+### 8. Next Steps
 Congrats you finally did it! Now, you can go ahead and find other repositories where you can start contributing.
 <img align='center' height=auto width=auto src="https://media.giphy.com/media/3otPoS81loriI9sO8o/giphy.gif">
 
