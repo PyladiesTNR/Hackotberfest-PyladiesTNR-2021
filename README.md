@@ -63,7 +63,7 @@ git commit -m "Add <your-name> to the Information cards"
 ```
 Do not forget to replace `<your-name>` by your name.
 
-### 5. Wanna see your changes locaclly?
+### 5. Wanna see your changes locally?
 To see the changes that you have done, on your machine, do those commands:
 ```
 python3 -m venv .env
