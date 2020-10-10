@@ -79,6 +79,20 @@ source .env/bin/activate
 pip3 install -r requirements.txt
 python3 app.py
 ```
+To check the version of your python and pip installed on your machine. Do those
+commands:
+- on a linux or mac osx terminal
+```
+python --version
+pip --version
+```
+- on windows
+```
+```
+if you don't have them installed on your machine. you can do the setup by following those link:
+- linux: https://linuxize.com/post/how-to-install-pip-on-ubuntu-18.04/
+- windows: https://phoenixnap.com/kb/how-to-install-python-3-windows
+
 By default, your changes should be visible on this url : http://127.0.0.1:5000 
 ### 6. Push Changes
 Do this command on your branch, to unable pushing over ssh:
