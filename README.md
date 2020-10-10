@@ -44,8 +44,16 @@ For example:
 git checkout -b add-yourname-info
 ```
 ### 4. Make Changes & Commit
-To add your card-name on the pyladiesTNR web pages, with your prefered editor, edit the
-file: contributors.json. In our case, we use "vim"
+To add your card-name in the home page, with your prefered editor, edit the
+file: static/contributors.json. Add your information same as in the file, put them at the bottom of the list.  [N.B: Do not forget the comma before adding your key/value pair] 
+
+Pour ajouter une carte dans la page d'accueil, ajoutez les mêmes informations que vous
+voyez dans le fichier. Mettez les tout en bas.  
+[N.B. : N'oubliez pas la virgule avant d'ajouter votre configuration].
+color options: Blue or Pink
+
+
+
 ```
 vim contributors.json
 ````

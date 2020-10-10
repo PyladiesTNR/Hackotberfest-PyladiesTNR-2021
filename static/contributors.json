@@ -1,0 +1,19 @@
+{    
+		"Mahaly": {
+        "name": "Mahalinoro Razafimanjato",
+        "about": "I am passionate about programming. I enjoy UI design and creating design with Figma. Besides that, I am an Arch Linux user.",
+        "twitter": "https://twitter.com/mahalinoro_raz",
+        "github": "https://github.com/Mahalinoro",
+        "facebook": "https://web.facebook.com/Rz.mahaly/",
+        "color": "pink"
+    },
+    "Fenoum": {
+        "name": "Aina Anjary Fenomamy R.",
+        "about": "I currently, work as a Full Stack Developer, I  am passionate about IT Architecture and programming. I enjoy Ballet Dance and hikking",
+        "twitter": "https://twitter.com/afenoum",
+        "github": "https://github.com/anjaniacatus",
+        "facebook": "https://web.facebook.com/fenoumR/",
+        "color": "blue"
+    }
+}
+
