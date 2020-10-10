@@ -1,7 +1,7 @@
 from flask import Flask, render_template, json
 
 app = Flask(__name__)
-with open('static/contributors.json', 'r') as contrib_file:
+with open("static/contributors.json", "r") as contrib_file:
     contributors = contrib_file.read()
 
 
