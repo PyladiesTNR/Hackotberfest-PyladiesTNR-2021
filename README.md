@@ -44,8 +44,11 @@ For example:
 git checkout -b add-yourname-info
 ```
 ### 4. Make Changes & Commit
-> **In construction:** Changes need to be done is not ready yet
-
+To add your card-name on the pyladiesTNR web pages, with your prefered editor, edit the
+file: contributors.json. In our case, we use "vim"
+```
+vim contributors.json
+````
 After all the necessary changes are done, if you execute the command `git status`, you will see all of them.
 
 Add those changes using the `git add` command:
@@ -60,10 +63,14 @@ git commit -m "Add <your-name> to the Information cards"
 ```
 Do not forget to replace `<your-name>` by your name.
 ### 5. Push Changes
+Do this command on your branch, to unable pushing over ssh:
+```
+git remote set-url origin ssh://git@github.com/PyladiesTNR/Hackotberfest-PyladiesTNR-2020.git
+```
 Push your changes using the command `git push`:
 
 ```
-git push origin <add-your-branch-name>
+git push -u origin <add-your-branch-name>
 ```
 
 Do not forget to replace `<add-your-branch-name>` with the name of the your newly created branch.
