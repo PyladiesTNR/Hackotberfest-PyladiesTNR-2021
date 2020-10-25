@@ -95,8 +95,7 @@ if you don't have them installed on your machine. you can do the setup by follow
 
 By default, your changes should be visible on this url : http://127.0.0.1:5000 
 ### 6. Push Changes
-<!-- tsy tokony enable ve ilay unable io? -->
-Do this command on your branch, to unable pushing over ssh:
+Do this command on your branch, to enable pushing over ssh:
 ```
 git remote set-url origin ssh://git@github.com/PyladiesTNR/Hackotberfest-PyladiesTNR-2020.git
 ```
