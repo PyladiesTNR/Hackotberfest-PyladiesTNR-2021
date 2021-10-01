@@ -1,6 +1,6 @@
-<img height=auto width=auto src="https://github.com/Mahalinoro/Hackotberfest-PyladiesTNR-2020/blob/main/public/main.png">
+<img height=auto width=auto src="public/hack2021-light.png">
 
-> **Announcement:** Salut! Happy Hacktoberfest 2020! Nous avons besoin de ton aide pour la traduction de ce **README.md** en **Français** :fr:. Si cela t'intèresse tu peux faire un PR. Nous serions ravis de faire un review. Si tu as aussi une proposition pour ameliorer ceux qui est déja écrit, ce serait cool! :)  
+> **Announcement:** Salut! Happy Hacktoberfest 2021! Nous avons besoin de ton aide pour la traduction de ce **README.md** en **Français** :fr:. Si cela t'intèresse tu peux faire un PR. Nous serions ravis de faire un review. Si tu as aussi une proposition pour ameliorer ceux qui est déja écrit, ce serait cool! :)  
 
 ## Introduction
 
@@ -23,14 +23,14 @@ git clone "url du dépôt forké"
 Par exemple:
 
 ```
-git clone "https://github.com/PyladiesTNR/Hackotberfest-PyladiesTNR-2020.git"
+git clone "https://github.com/PyladiesTNR/Hackotberfest-PyladiesTNR-2021.git"
 ```
 Une copie du dépôt forké apparaîtra dans votre machine locale.
 
 ### 3. Créer une branche
 Entrez dans le dépôt cloné sur votre machine(sauf si vous êtes déjà là):
 ```
-cd Hacktoberfest-PyladiesTNR-2020
+cd Hacktoberfest-PyladiesTNR-2021
 ```
 Ensuite, créez une branche avec la commande `git checkout`:
 
@@ -42,7 +42,7 @@ Par example:
 ```
 git checkout -b ajouter-votrenom-info
 ```
-### 4. Effectuer des changements & Commiter
+### 4. Effectuer des changements & Fait un "Commit"
 Pour ajouter une carte dans la page d’accueil, avec votre éditeur préféré, modifiez le fichier: static/contributors.json. Ajoutez vos informations comme vous voyez dans le fichier, mettez-les tout en bas de la liste. [N.B: N’oubliez pas la virgule avant d’ajouter vos informations]
 
 ```
@@ -80,6 +80,9 @@ pip --version
 ```
 <!-- Ina ny an'i windows toa tsy misy? -->
 - sur windows
+```
+python --version
+```
 
 Si vous ne les avez pas installés sur votre machine, vous pouvez faire la configuration en suivant ces tutoriels:
 - linux: https://linuxize.com/post/how-to-install-pip-on-ubuntu-18.04/
@@ -114,12 +117,18 @@ Félicitations! Vous l'avez fait! Vous pouvez maintenant chercher d'autres dép�
 [MIT LICENSE](https://github.com/PyladiesTNR/Hackotberfest-PyladiesTNR-2020/blob/main/LICENSE)
 
 
-<hr></hr>      
-<p align=center>
+<hr></hr>     
+
+### CONTRIBUTORS
+<a href="https://github.com/PyladiesTNR/Hackotberfest-PyladiesTNR-2021/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=PyladiesTNR/Hackotberfest-PyladiesTNR-2021" />
+</a>
+
+<!-- <p align=center>
   <samp align=center><i>reach us on:</i></samp>
 </p>
 
 <p align=center>
   <a href="https://web.facebook.com/djangogirlsTNR"><img margin-right=20 height=30 width=30 src="https://github.com/Mahalinoro/Hackotberfest-PyladiesTNR-2020/blob/main/public/facebook.png"></a>
   <a href="https://twitter.com/PyladiesTNR"><img height=30 width=30 src="https://github.com/Mahalinoro/Hackotberfest-PyladiesTNR-2020/blob/main/public/twitterlight.png"></a>
-</p>
+</p> -->
