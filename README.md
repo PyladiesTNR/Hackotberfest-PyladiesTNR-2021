@@ -118,6 +118,12 @@ Congrats you finally did it! Now, you can go ahead and find other repositories w
 ## License
 [MIT LICENSE](https://github.com/PyladiesTNR/Hackotberfest-PyladiesTNR-2020/blob/main/LICENSE)
 
+## Contributors List
+- [Aina Anjary Fenomamy](https://github.com/anjaniacatus)
+- [Mahaly](https://github.com/Mahalinoro)
+- [Pyladies Antananarivo](https://github.com/PyladiesTNR)
+- [VolatianaYuliana](https://github.com/VolatianaYuliana)
+
 
 <hr></hr>      
 <p align=center>
@@ -128,3 +134,4 @@ Congrats you finally did it! Now, you can go ahead and find other repositories w
   <a href="https://web.facebook.com/djangogirlsTNR"><img margin-right=20 height=30 width=30 src="https://github.com/Mahalinoro/Hackotberfest-PyladiesTNR-2020/blob/main/public/facebook.png"></a>
   <a href="https://twitter.com/PyladiesTNR"><img height=30 width=30 src="https://github.com/Mahalinoro/Hackotberfest-PyladiesTNR-2020/blob/main/public/twitterlight.png"></a>
 </p>
+
