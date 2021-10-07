@@ -2,7 +2,6 @@
 
 > **Announcement:** Salut! Happy Hacktoberfest 2021! Nous avons besoin de ton aide pour la traduction de ce **README.md** en **Français** :fr:. Si cela t'intèresse tu peux faire un PR. Nous serions ravis de faire un review. Si tu as aussi une proposition pour ameliorer ceux qui est déja écrit, ce serait cool! :)  
 
-## Introduction
 
 ## Commencer
 Assurez-vous que Git est installé sur votre machine, [Installation de Git ici](https://help.github.com/articles/set-up-git/).
@@ -119,7 +118,7 @@ Félicitations! Vous l'avez fait! Vous pouvez maintenant chercher d'autres dép�
 
 <hr></hr>     
 
-### CONTRIBUTORS
+### CONTRIBUTEURS
 <a href="https://github.com/PyladiesTNR/Hackotberfest-PyladiesTNR-2021/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=PyladiesTNR/Hackotberfest-PyladiesTNR-2021" />
 </a>
