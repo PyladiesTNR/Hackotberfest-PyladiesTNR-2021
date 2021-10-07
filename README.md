@@ -1,8 +1,6 @@
 <img height=auto width=auto src="https://user-images.githubusercontent.com/57705801/135631172-2cc14ad0-c97c-4a98-8d0d-42d26d7b2eb6.png">
 
-> **Announcement:** Happy Hacktoberfest 2020!! We need some help translating this *`*README.md** into **Malagasy** :madagascar: and **French** :fr:, if you are interested submit your PR and we will review it! Also, if you want to improve it - you are highly welcomed! For the Malagasy translation, edit the file: **README_MG**. For the French, edit this: **README_FR** 
-
-# Introduction
+> **Announcement:** Happy Hacktoberfest 2021!! We need some help translating this *`*README.md** into **Malagasy** :madagascar: and **French** :fr:, if you are interested submit your PR and we will review it! Also, if you want to improve it - you are highly welcomed! For the Malagasy translation, edit the file: **README_MG**. For the French, edit this: **README_FR** 
 
 ## Get Started
 Make sure you have git installed in you machine, [Git Installation Setup here](https://help.github.com/articles/set-up-git/).
@@ -23,14 +21,14 @@ git clone "url of forked repository"
 For example:
 
 ```
-git clone "https://github.com/PyladiesTNR/Hackotberfest-PyladiesTNR-2020.git"
+git clone "https://github.com/PyladiesTNR/Hackotberfest-PyladiesTNR-2021.git"
 ```
 Here, a copy of this repository will appear in your local machine.
 
 ## 3. Create A Branch
 Go to the repository containing the cloned repository in your machine (unless you are already there):
 ```
-cd Hacktoberfest-PyladiesTNR-2020
+cd Hacktoberfest-PyladiesTNR-2021
 ```
 
 After, create a branch with `git checkout` command:
@@ -97,7 +95,7 @@ By default, your changes should be visible on this url : http://127.0.0.1:5000
 ## 6. Push Changes
 Do this command on your branch, to enable pushing over ssh:
 ```
-git remote set-url origin ssh://git@github.com/PyladiesTNR/Hackotberfest-PyladiesTNR-2020.git
+git remote set-url origin ssh://git@github.com/PyladiesTNR/Hackotberfest-PyladiesTNR-2021.git
 ```
 Push your changes using the command `git push`:
 
@@ -121,22 +119,12 @@ Congrats you finally did it! Now, you can go ahead and find other repositories w
 <br><br>
 <img align='center' height=auto width=auto src="https://media.giphy.com/media/3otPoS81loriI9sO8o/giphy.gif">
 ## License
-[MIT LICENSE](https://github.com/PyladiesTNR/Hackotberfest-PyladiesTNR-2020/blob/main/LICENSE)
-
-## Contributors List
-- [Aina Anjary Fenomamy](https://github.com/anjaniacatus)
-- [Mahaly](https://github.com/Mahalinoro)
-- [Pyladies Antananarivo](https://github.com/PyladiesTNR)
-- [VolatianaYuliana](https://github.com/VolatianaYuliana)
+[MIT LICENSE](https://github.com/PyladiesTNR/Hackotberfest-PyladiesTNR-2021/blob/main/LICENSE)
 
 
-<hr></hr>      
-<p align=center>
-  <samp align=center><i>reach us on:</i></samp>
-</p>
+### CONTRIBUTORS
+<a href="https://github.com/PyladiesTNR/Hackotberfest-PyladiesTNR-2021/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=PyladiesTNR/Hackotberfest-PyladiesTNR-2021" />
+</a>
 
-<p align=center>
-  <a href="https://web.facebook.com/djangogirlsTNR"><img margin-right=20 height=30 width=30 src="https://github.com/Mahalinoro/Hackotberfest-PyladiesTNR-2020/blob/main/public/facebook.png"></a>
-  <a href="https://twitter.com/PyladiesTNR"><img height=30 width=30 src="https://github.com/Mahalinoro/Hackotberfest-PyladiesTNR-2020/blob/main/public/twitterlight.png"></a>
-</p>
 
