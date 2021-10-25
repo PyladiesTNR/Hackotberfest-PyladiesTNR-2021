@@ -47,12 +47,6 @@ Now you have created a new branch where you can implement new features or fix pr
 To add your card-name in the home page, with your prefered editor, edit the
 file: <strong>static/contributors.json</strong>. Add your information same as in the file, put them at the bottom of the list.  <strong>[N.B: Do not forget the comma before adding your key/value pair</strong>] 
 
-Pour ajouter une carte dans la page d'accueil, ajoutez les mêmes informations que vous
-voyez dans le fichier. Mettez les tout en bas.  
-[N.B. : N'oubliez pas la virgule avant d'ajouter votre configuration].
-color options: Blue or Pink
-
-
 
 ```
 vim contributors.json
