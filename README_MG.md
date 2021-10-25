@@ -49,8 +49,6 @@ Ankehitriny ianao dia afaka mamorona sampana vaovao izay ahafahanao manamboatra 
 Mba hanampiana ny anaranao ao amin'ny pejin'ny fandraisana, miaraka amin'ny "editeur de texte" tinao, dia amboarina ny
 Rakitra: <strong>static/contributors.json</strong>. Ampidiro toy ny ao anatin'ilay rakitra ny fampahalalana mikasika anao, ataovy eo amin'ny farany ambany amin'ilay lisitra izany.  <strong>[N.B: Aza adino ilay comma alohan'ny hampidirana azy</strong>] 
 
-Misafidiana loko: Manga na Mavokely
-
 
 ```
 vim contributors.json
